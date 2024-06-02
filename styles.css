@@ -160,6 +160,7 @@ body {
 .intro_text {
   color: var(--secondary-text-color);
   text-align: justify;
+  margin-top: 10px;
 }
 
 .skills__header {
@@ -177,13 +178,12 @@ body {
 
 .experiences {
   flex: 1 1 60%;
-  margin-right: 50px;
 }
 
 .experiences__header {
   color: var(--secondary-text-color);
-  text-align: left;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .experiences__company-header-durability {
@@ -234,7 +234,7 @@ body {
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -261,7 +261,7 @@ body {
 
 .additional-info__languages-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
