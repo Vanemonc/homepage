@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .fv {
@@ -91,7 +92,7 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .contact-info__block--center {
@@ -132,6 +133,7 @@ body {
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
+  margin-right: 70px;
 }
 
 /* Intro and skills styles */
