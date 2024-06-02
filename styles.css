@@ -1,4 +1,4 @@
-/*General styles*/
+/* General styles */
 
 * {
   margin: 0;
@@ -50,7 +50,7 @@ body {
   margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width <= 576px) {
   .main-info,
   .contact_info_container {
     flex-direction: column;
@@ -69,7 +69,7 @@ body {
   }
 }
 
-/*Contact info styles*/
+/* Contact info styles */
 
 .contact-info__header,
 .contact-info__sub-header {
@@ -134,7 +134,7 @@ body {
   border-color: var(--text-decoration-color);
 }
 
-/*Intro and skills styles*/
+/* Intro and skills styles */
 
 .intro {
   display: flex;
@@ -160,6 +160,7 @@ body {
 .intro_text {
   color: var(--secondary-text-color);
   text-align: justify;
+  margin-top: 10px;
 }
 
 .skills__header {
@@ -173,17 +174,16 @@ body {
   text-align: justify;
 }
 
-/*Experience and additional info styles*/
+/* Experience and additional info styles */
 
 .experiences {
   flex: 1 1 60%;
-  margin-right: 50px;
 }
 
 .experiences__header {
   color: var(--secondary-text-color);
-  text-align: left;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .experiences__company-header-durability {
@@ -234,7 +234,7 @@ body {
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -261,10 +261,27 @@ body {
 
 .additional-info__languages-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+/* Added Lines*/
+
+.ThankYou {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+#ThankYou {
+  font-size: 1.5em;
+  color: var(--secondary-text-color);
+  padding: 6px;
+  border: 3px solid var(--text-decoration-color);
+  border-radius: 28px;
+  cursor: pointer;
 }
