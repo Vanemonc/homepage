@@ -261,7 +261,7 @@ body {
 
 .additional-info__languages-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
